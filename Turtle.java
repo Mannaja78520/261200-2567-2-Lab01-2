@@ -55,8 +55,8 @@
         for (int i = 0; i < 12; i++) {
             bob.penColor("pink");
             bob.down();
-            for (int k = 0; k < 2; k++) {
-                for (int j = 0; j < 60; j++) {
+            for (int j = 0; j < 2; j++) {
+                for (int k = 0; k < 60; k++) {
                     bob.forward(radians * Math.PI / 180);
                     bob.right(1);
                 }
